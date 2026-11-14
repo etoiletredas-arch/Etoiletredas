@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etoile tredas | Smart Digital Solutions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-300 antialiased selection:bg-indigo-500/30 selection:text-indigo-200">
+
+    <!-- Navigation Bar -->
+    <nav class="fixed w-full z-50 bg-slate-950/80 backdrop-blur-lg border-b border-slate-800 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Company Brand -->
+                <div class="flex-shrink-0 flex items-center gap-3 cursor-pointer">
+                    <!-- Company Logo Placeholder -->
+                    <div class="w-10 h-10 rounded overflow-hidden bg-slate-800 flex items-center justify-center border border-slate-700">
+                        <img src="company-logo.png" alt="Etoile tredas Logo" class="w-full h-full object-cover" onerror="this.src='https://placehold.co/100x100/1e293b/ffffff?text=ET'">
+                    </div>
+                    <div>
+                        <span class="font-extrabold text-xl tracking-tight text-white leading-none block">Etoile tredas</span>
+                    </div>
+                </div>
+                
+                <!-- Desktop Menu -->
+                <div class="hidden md:flex space-x-8 items-center">
+                    <a href="#home" class="text-slate-400 hover:text-indigo-400 font-medium transition-colors">Home</a>
+                    <a href="#about" class="text-slate-400 hover:text-indigo-400 font-medium transition-colors">About Us</a>
+                    <a href="#products" class="text-slate-400 hover:text-indigo-400 font-medium transition-colors">Products</a>
+                    <a href="#contact" class="bg-indigo-600 hover:bg-indigo-500 text-white px-5 py-2.5 rounded-lg font-semibold transition-all shadow-lg shadow-indigo-500/20">
+                        Contact Us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden flex flex-col items-center justify-center text-center">
+        <!-- Abstract Background Glowing Orbs -->
+        <div class="absolute inset-0 overflow-hidden pointer-events-none">
+            <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[500px] rounded-full bg-indigo-600/20 blur-[120px]"></div>
+            <div class="absolute -bottom-1/4 right-0 w-[600px] h-[600px] rounded-full bg-blue-600/10 blur-[100px]"></div>
+        </div>
+
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 flex flex-col items-center">
+            <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-900 text-indigo-400 text-sm font-semibold mb-8 border border-slate-800 shadow-xl">
+                <span class="w-2 h-2 rounded-full bg-indigo-500 animate-pulse"></span>
+                Next-Gen Software Agency
+            </div>
+            
+            <h1 class="text-4xl md:text-6xl lg:text-7xl font-extrabold text-white leading-tight tracking-tight mb-6">
+                Innovating Smart Solutions for a <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">Secure Tomorrow</span>
+            </h1>
+            
+            <p class="text-lg md:text-xl text-slate-400 mb-10 max-w-3xl mx-auto font-light leading-relaxed">
+                Etoile tredas develops cutting-edge mobile applications designed to enhance security, simplify daily management, and protect your loved ones.
+            </p>
+            
+            <div class="flex gap-4">
+                <a href="#products" class="bg-indigo-600 hover:bg-indigo-500 text-white px-8 py-3.5 rounded-lg font-semibold transition-all shadow-lg shadow-indigo-500/25 hover:-translate-y-1">
+                    View Our Apps
+                </a>
+                <a href="#about" class="bg-slate-800 hover:bg-slate-700 text-white px-8 py-3.5 rounded-lg font-semibold transition-all border border-slate-700 hover:border-slate-600">
+                    Learn More
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-24 bg-slate-900 border-y border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center max-w-4xl">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">About Etoile tredas</h2>
+            <div class="w-16 h-1 bg-indigo-500 mx-auto mb-8 rounded-full"></div>
+            <p class="text-lg text-slate-400 leading-relaxed">
+                At Etoile tredas, we are committed to engineering reliable, lightning-fast, and highly intuitive technological solutions. As a forward-thinking software development studio, our mission is to bridge the gap between complex security needs and seamless user experiences. We take pride in building enterprise-grade infrastructure that powers our applications, ensuring that whether you are securing a gated community or protecting your family, you have the most robust tools right at your fingertips.
+            </p>
+        </div>
+    </section>
+
+    <!-- Our Products Section -->
+    <section id="products" class="py-24 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Our Products</h2>
+                <p class="text-lg text-slate-400">Discover the innovative suite of applications engineered by Etoile tredas.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- GateZentry App -->
+                <div class="bg-slate-900 rounded-2xl p-8 border border-slate-800 hover:border-indigo-500/50 hover:bg-slate-800/50 transition-all flex flex-col h-full group">
+                    <div class="flex items-start justify-between mb-6">
+                        <!-- GateZentry Logo Placeholder -->
+                        <div class="w-16 h-16 rounded-2xl flex-shrink-0 overflow-hidden bg-white">
+                            <img src="gatezentry-logo.png" alt="GateZentry Logo" class="w-full h-full object-cover" onerror="this.src='https://placehold.co/150x150/8B0000/FFFFFF?text=GZ'">
+                        </div>
+                    </div>
+                    <h3 class="text-2xl font-bold text-white mb-1">GateZentry</h3>
+                    <span class="text-indigo-400 text-sm font-medium mb-4 block">Society & Gate Entry Management</span>
+                    
+                    <p class="text-slate-400 leading-relaxed mb-8 flex-grow">
+                        A comprehensive digital gate pass system. Streamline visitor management with instant QR code scanning, receive real-time security alerts, and manage entry logs effortlessly.
+                    </p>
+                    
+                    <!-- Google Play Button -->
+                    <a href="#" class="inline-flex items-center justify-center w-full sm:w-max px-5 py-2.5 bg-black hover:bg-zinc-900 text-white rounded-xl transition-all border border-zinc-800 group-hover:border-zinc-700">
+                        <svg class="w-6 h-6 mr-3" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17.8422 13.9056L5.03159 21.3653C4.19532 21.8524 3.0905 21.2405 3.0905 20.2608V3.73909C3.0905 2.7594 4.19532 2.14748 5.03159 2.63465L17.8422 10.0943C18.7291 10.6111 18.7291 11.8888 17.8422 12.4056V13.9056Z" fill="#00E3FF"/>
+                            <path d="M17.8422 13.9056L5.03159 21.3653C4.19532 21.8524 3.0905 21.2405 3.0905 20.2608V12L17.8422 13.9056Z" fill="#FF9C00"/>
+                            <path d="M3.0905 12L17.8422 10.0943C18.7291 10.6111 18.7291 11.8888 17.8422 12.4056L3.0905 14.3113V12Z" fill="#FF3A44"/>
+                            <path d="M17.8422 10.0943L5.03159 2.63465C4.19532 2.14748 3.0905 2.7594 3.0905 3.73909V12L17.8422 10.0943Z" fill="#00F076"/>
+                        </svg>
+                        <div class="text-left flex flex-col justify-center">
+                            <span class="text-[9px] uppercase font-semibold leading-none mb-0.5 text-gray-400">GET IT ON</span>
+                            <span class="text-[15px] font-semibold leading-none font-sans tracking-tight">Google Play</span>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Lifeline Alert App -->
+                <div class="bg-slate-900 rounded-2xl p-8 border border-slate-800 hover:border-indigo-500/50 hover:bg-slate-800/50 transition-all flex flex-col h-full group">
+                    <div class="flex items-start justify-between mb-6">
+                        <!-- Lifeline Alert Logo Placeholder -->
+                        <div class="w-16 h-16 rounded-2xl flex-shrink-0 overflow-hidden bg-white">
+                            <img src="lifeline-alert-logo.png" alt="Lifeline Alert Logo" class="w-full h-full object-cover" onerror="this.src='https://placehold.co/150x150/1e3a8a/FFFFFF?text=LA'">
+                        </div>
+                    </div>
+                    <h3 class="text-2xl font-bold text-white mb-1">Lifeline Alert</h3>
+                    <span class="text-blue-400 text-sm font-medium mb-4 block">Family Safety Application</span>
+                    
+                    <p class="text-slate-400 leading-relaxed mb-8 flex-grow">
+                        Your trusted companion for personal security. Features real-time location sharing, instant SOS SMS notifications, and reliable emergency alerts to keep your family safe.
+                    </p>
+                    
+                    <!-- Google Play Button -->
+                    <a href="#" class="inline-flex items-center justify-center w-full sm:w-max px-5 py-2.5 bg-black hover:bg-zinc-900 text-white rounded-xl transition-all border border-zinc-800 group-hover:border-zinc-700">
+                        <svg class="w-6 h-6 mr-3" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M17.8422 13.9056L5.03159 21.3653C4.19532 21.8524 3.0905 21.2405 3.0905 20.2608V3.73909C3.0905 2.7594 4.19532 2.14748 5.03159 2.63465L17.8422 10.0943C18.7291 10.6111 18.7291 11.8888 17.8422 12.4056V13.9056Z" fill="#00E3FF"/>
+                            <path d="M17.8422 13.9056L5.03159 21.3653C4.19532 21.8524 3.0905 21.2405 3.0905 20.2608V12L17.8422 13.9056Z" fill="#FF9C00"/>
+                            <path d="M3.0905 12L17.8422 10.0943C18.7291 10.6111 18.7291 11.8888 17.8422 12.4056L3.0905 14.3113V12Z" fill="#FF3A44"/>
+                            <path d="M17.8422 10.0943L5.03159 2.63465C4.19532 2.14748 3.0905 2.7594 3.0905 3.73909V12L17.8422 10.0943Z" fill="#00F076"/>
+                        </svg>
+                        <div class="text-left flex flex-col justify-center">
+                            <span class="text-[9px] uppercase font-semibold leading-none mb-0.5 text-gray-400">GET IT ON</span>
+                            <span class="text-[15px] font-semibold leading-none font-sans tracking-tight">Google Play</span>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- NEW APP TEMPLATE -->
+                <!-- 
+                <div class="bg-slate-900 rounded-2xl p-8 border border-slate-800 hover:border-indigo-500/50 transition-all flex flex-col h-full group">
+                    <div class="flex items-start justify-between mb-6">
+                        <div class="w-16 h-16 rounded-2xl flex-shrink-0 overflow-hidden bg-white">
+                            <img src="new-app-logo.png" alt="App Logo" class="w-full h-full object-cover">
+                        </div>
+                    </div>
+                    <h3 class="text-2xl font-bold text-white mb-1">App Name</h3>
+                    <span class="text-indigo-400 text-sm font-medium mb-4 block">App Category</span>
+                    <p class="text-slate-400 leading-relaxed mb-8 flex-grow">
+                        Description goes here...
+                    </p>
+                    <a href="#" class="inline-flex items-center justify-center w-full sm:w-max px-5 py-2.5 bg-black hover:bg-zinc-900 text-white rounded-xl transition-all border border-zinc-800">
+                        GET IT ON Google Play (SVG Icon Here)
+                    </a>
+                </div>
+                -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="py-24 bg-slate-900 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl font-bold text-white">Why Choose Us</h2>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <!-- Feature 1 -->
+                <div class="text-center px-4">
+                    <div class="w-16 h-16 bg-indigo-500/10 rounded-2xl flex items-center justify-center mx-auto mb-6 text-indigo-400 border border-indigo-500/20">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Uncompromised Security</h3>
+                    <p class="text-slate-400">Data protection is our top priority. We implement robust encryption and strict privacy protocols to safeguard your sensitive information.</p>
+                </div>
+                <!-- Feature 2 -->
+                <div class="text-center px-4">
+                    <div class="w-16 h-16 bg-blue-500/10 rounded-2xl flex items-center justify-center mx-auto mb-6 text-blue-400 border border-blue-500/20">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Real-Time Sync</h3>
+                    <p class="text-slate-400">Experience seamless operations with instant updates. Our cloud infrastructure ensures you always have the most current data at a glance.</p>
+                </div>
+                <!-- Feature 3 -->
+                <div class="text-center px-4">
+                    <div class="w-16 h-16 bg-purple-500/10 rounded-2xl flex items-center justify-center mx-auto mb-6 text-purple-400 border border-purple-500/20">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">User-Friendly Design</h3>
+                    <p class="text-slate-400">Complex technology simplified. We design highly intuitive interfaces so anyone can use our apps without a steep learning curve.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Professional Footer -->
+    <footer id="contact" class="bg-black py-16 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+                <!-- Brand Col -->
+                <div class="md:col-span-2">
+                    <span class="font-extrabold text-2xl tracking-tight text-white mb-4 block">Etoile tredas</span>
+                    <p class="text-slate-400 mb-6 max-w-sm">Innovating the future with smart, secure, and user-centric digital solutions.</p>
+                    <div class="flex items-center text-slate-300">
+                        <svg class="w-5 h-5 mr-3 text-indigo-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                        <a href="mailto:support@etoiletredas.com" class="hover:text-white transition-colors">support@etoiletredas.com</a>
+                    </div>
+                </div>
+                
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-white font-semibold mb-6 uppercase tracking-wider text-sm">Quick Links</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-slate-400 hover:text-white transition-colors">Home</a></li>
+                        <li><a href="#about" class="text-slate-400 hover:text-white transition-colors">About Us</a></li>
+                        <li><a href="#products" class="text-slate-400 hover:text-white transition-colors">Our Products</a></li>
+                        <li><a href="#" class="text-slate-400 hover:text-white transition-colors">Contact Support</a></li>
+                    </ul>
+                </div>
+
+                <!-- Legal -->
+                <div>
+                    <h4 class="text-white font-semibold mb-6 uppercase tracking-wider text-sm">Legal</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-slate-400 hover:text-white transition-colors">Privacy Policy</a></li>
+                        <li><a href="#" class="text-slate-400 hover:text-white transition-colors">Terms & Conditions</a></li>
+                        <li><a href="#" class="text-slate-400 hover:text-white transition-colors">Refund Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="pt-8 border-t border-slate-800 text-center md:text-left flex flex-col md:flex-row justify-between items-center text-sm text-slate-500">
+                <p>&copy; 2026 Etoile tredas. All rights reserved.</p>
+                <p class="mt-2 md:mt-0">Designed & Developed by Etoile tredas.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
