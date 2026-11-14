@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etoile tredas | Legal & Support</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style> body { font-family: 'Inter', sans-serif; } </style>
+</head>
+<body class="bg-slate-950 text-slate-300 antialiased">
+
+    <!-- Simple Navbar -->
+    <nav class="w-full bg-slate-950 border-b border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center h-20">
+                <a href="index.html" class="flex items-center gap-3">
+                    <div class="w-10 h-10 rounded overflow-hidden">
+                        <img src="company-logo.png" alt="Logo" class="w-full h-full object-contain" onerror="this.src='https://placehold.co/100x100/1e293b/ffffff?text=ET'">
+                    </div>
+                    <span class="font-bold text-xl text-white">Etoile tredas</span>
+                </a>
+                <a href="index.html" class="ml-auto text-indigo-400 hover:text-indigo-300 font-medium">← Back to Home</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Content Section -->
+    <main class="max-w-4xl mx-auto px-4 sm:px-6 py-16 min-h-screen">
+        
+        <!-- Yahan par page ka naam badlein (Privacy Policy / Terms & Conditions / Refund Policy / Contact Support) -->
+        <h1 class="text-3xl md:text-4xl font-bold text-white mb-8">Privacy Policy</h1>
+        
+        <div class="prose prose-invert max-w-none text-slate-400 space-y-6">
+            <p>Welcome to Etoile tredas. This page contains important information regarding our policies and how we handle your data, services, and support.</p>
+            
+            <h2 class="text-xl text-white font-semibold mt-8 mb-4">1. Information We Collect</h2>
+            <p>We are committed to protecting your personal information and your right to privacy. When you use our mobile applications (GateZentry, Lifeline Alert), we only collect data that is necessary for the proper functioning of the apps.</p>
+
+            <h2 class="text-xl text-white font-semibold mt-8 mb-4">2. How We Use Your Data</h2>
+            <p>Your information is used strictly to provide, operate, and maintain our services. We do not sell your personal data to third parties.</p>
+
+            <h2 class="text-xl text-white font-semibold mt-8 mb-4">3. Contact & Support</h2>
+            <p>If you have any questions or need help with our applications, please contact our support team:</p>
+            <ul class="list-disc pl-5 mt-2">
+                <li>Email: <strong>support = etoiletredas@gmail.com.com</strong></li>
+                <li>Company: Etoile tredas</li>
+            </ul>
+            
+            <p class="mt-8 text-sm italic">Last updated: November 2026</p>
+        </div>
+    </main>
+
+    <!-- Simple Footer -->
+    <footer class="bg-black py-8 border-t border-slate-800 text-center text-sm text-slate-500">
+        <p>&copy; 2026 Etoile tredas. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
